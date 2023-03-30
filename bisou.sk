@@ -1,0 +1,15 @@
+command /bisou <player>:
+  usage: <purple> /bisou <player>
+	permission: bisou.bisou
+	permission message: &cVous n'avez pas la permission ! 
+	cooldown: 1 minute
+	cooldown message: Vous devez attendre &6&l%remaining time% &rpour refaire un bisou!
+	cooldown bypass: bisou.pass
+	trigger:	
+		drawSphere style 1, particle "heart", center player, id "%player%", rainbowMode true, radius 1, density 2, visibleRange 32, pulseDelay 1
+		drawSphere style 1, particle "heart", center arg 1, id "%arg 1%", rainbowMode true, radius 1, density 2, visibleRange 32, pulseDelay 1
+		send "&c❤&d Bisou envoyé à &b%arg 1%"
+		send "&c❤&d Vous avez reçu un bisou de &a%player%" to arg 1
+		wait 4 seconds
+		stopEffect id "%player%"
+		stopEffect id "%arg 1%"
