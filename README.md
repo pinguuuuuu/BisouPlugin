@@ -1,5 +1,7 @@
 # BisouPlugin
 
+BisouPlugin is a useless Skript, but really fun ! Already used on some servers !! 
+
 ## Setup
 - **Minecraft versions** : `1.12.*`
 - **Required Plugins** : `Skript, skDragons`
