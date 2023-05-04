@@ -21,7 +21,7 @@ server/plugins/Skript/script/
 
 | Utility     | Name          | 
 | :--------   | :-------      | 
-| Use /[bisou]  | `bisou.bisou` | 
+| Use /bisou  | `bisou.bisou` | 
 | No cooldown | `bisou.pass`  |
 
 
